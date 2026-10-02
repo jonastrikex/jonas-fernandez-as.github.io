@@ -1169,3 +1169,41 @@ body::after {
 .cat-group .projects {
   border-top: 0;
 }
+
+/* ── ARTICLE IMAGES ──────────────────────────────── */
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+  border: 1px solid var(--rule);
+  background: var(--bg-2);
+}
+
+.prose figure {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.prose figure img {
+  margin: 0;
+  width: 100%;
+}
+
+.prose figcaption {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .5px;
+  color: var(--ink-3);
+  text-align: center;
+  line-height: 1.5;
+  max-width: 90%;
+}
+
+.prose figcaption::before {
+  content: "// ";
+  color: var(--ink-4);
+}
