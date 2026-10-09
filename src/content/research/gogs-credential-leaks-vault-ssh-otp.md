@@ -2,7 +2,7 @@
 title: "Gogs Credential Leaks and Vault SSH OTP — From Git History to Root"
 description: "A technical deep dive into two attack surfaces that chain together: how Git history preserves credentials that were supposedly deleted, and how a misconfigured HashiCorp Vault SSH OTP engine turns a low-privileged token into root access."
 date: 2026-10-09
-type: "Research"
+type: "Technique · Secrets Management"
 category: "Red Team"
 difficulty: "Intermediate"
 readingTime: 18
