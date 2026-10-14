@@ -11,6 +11,7 @@ export const site = {
   socials: {
     linkedin: { label: 'LinkedIn', value: 'jonastrikex', url: 'https://www.linkedin.com/in/jonastrikex' },
     github:   { label: 'GitHub',   value: 'jonastrikex', url: 'https://github.com/jonastrikex' },
+    x:        { label: 'X',        value: '@jonastrikex',       url: 'https://x.com/jonastrikex' },
     youtube:  { label: 'YouTube',  value: '@JonaStrikeX',       url: 'https://www.youtube.com/@JonaStrikeX' },
     email:    { label: 'Email',    value: 'contact@jonastrikex.com', url: 'mailto:contact@jonastrikex.com' },
   },
