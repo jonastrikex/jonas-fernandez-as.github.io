@@ -12,6 +12,7 @@ export const site = {
     linkedin: { label: 'LinkedIn', value: 'jonastrikex', url: 'https://www.linkedin.com/in/jonastrikex' },
     github:   { label: 'GitHub',   value: 'jonastrikex', url: 'https://github.com/jonastrikex' },
     x:        { label: 'X',        value: '@jonastrikex',       url: 'https://x.com/jonastrikex' },
+    htb:      { label: 'HackTheBox', value: '@jonastrikex',     url: 'https://profile.hackthebox.com/profile/019c3f34-42aa-704b-b19e-d605bb278b00' },
     youtube:  { label: 'YouTube',  value: '@JonaStrikeX',       url: 'https://www.youtube.com/@JonaStrikeX' },
     email:    { label: 'Email',    value: 'contact@jonastrikex.com', url: 'mailto:contact@jonastrikex.com' },
   },
