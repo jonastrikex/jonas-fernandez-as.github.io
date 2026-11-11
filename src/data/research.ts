@@ -37,6 +37,7 @@ export const research: ResearchEntry[] = [
     body: 'Local privilege escalation in Enter Iperius Backup 8.8.3 for Windows. Insufficient separation between the elevated GUI and low-privileged local users allows an attacker to abuse native Windows dialogs exposed by the application to execute programs that inherit its elevated context, escalating to SYSTEM or Administrator. Coordinated disclosure with the vendor via INCIBE, patched in version 8.8.9.',
     links: [
       { label: 'INCIBE advisory ↗', url: 'https://www.incibe.es/en/incibe-cert/notices/aviso/privilege-escalation-enters-iperius-backup' },
+      { label: 'PoC ↗', url: 'https://github.com/jonastrikex/CVE-2026-112174-Iperius-Backup-version-8.8.3-PoC' },
     ],
     notes: ['CVE-2026-112174', 'Fixed in 8.8.9'],
   },
